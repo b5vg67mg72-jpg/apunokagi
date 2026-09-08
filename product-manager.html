@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Apunokagi Product Manager</title>
+  <style>
+    :root{--cocoa:#4b352d;--brown:#a86f51;--cream:#fffaf1;--pink:#f6cbd1;--pink2:#fff0f2;--mint:#cfe8d5;--yellow:#f7df9b;--muted:#79665e;--line:#eadbd2;--shadow:0 18px 45px rgba(94,62,48,.12)}
+    *{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--cocoa);font-family:"Hiragino Maru Gothic ProN","Yu Gothic",Avenir,Arial,sans-serif;line-height:1.65}.wrap{width:min(1100px,calc(100% - 32px));margin:auto}.top{padding:28px 0;border-bottom:1px solid var(--line);background:rgba(255,250,241,.94)}.top-inner{display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-size:23px;font-weight:950}.pill{padding:7px 12px;border-radius:999px;background:var(--yellow);font-size:12px;font-weight:900}.intro{padding:45px 0 25px}.intro h1{font-size:clamp(35px,6vw,58px);line-height:1.1;margin:8px 0 14px}.intro p{max-width:720px;color:var(--muted)}.eyebrow{color:var(--brown);font-size:12px;font-weight:950;letter-spacing:.15em}.layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;padding-bottom:60px}.card{padding:28px;border:2px solid var(--cocoa);border-radius:28px;background:#fff;box-shadow:5px 6px 0 var(--cocoa)}h2{margin:0 0 20px;font-size:25px}.field{margin-bottom:17px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field-grid .field{margin-bottom:5px}label{display:block;font-size:13px;font-weight:900;margin-bottom:6px}input,textarea,select{width:100%;border:1px solid var(--line);border-radius:13px;padding:12px 13px;background:#fffefb;color:var(--cocoa);font:inherit}input:focus,textarea:focus,select:focus{outline:3px solid rgba(246,203,209,.7);border-color:var(--brown)}textarea{min-height:95px;resize:vertical}.help{display:block;color:var(--muted);font-size:11px;margin-top:5px}.form-section{margin:23px 0 14px;padding-top:19px;border-top:1px solid var(--line)}.form-section h3{margin:0 0 4px;font-size:18px}.form-section p{margin:0 0 15px;color:var(--muted);font-size:12px}.upload{display:block;padding:24px;border:2px dashed var(--brown);border-radius:18px;background:var(--pink2);text-align:center;cursor:pointer}.upload input{display:none}.preview{display:none;width:100%;aspect-ratio:4/3;margin-top:12px;border-radius:16px;object-fit:cover;border:1px solid var(--line)}.check{display:flex;align-items:flex-start;gap:10px;padding:13px;border-radius:15px;background:#eff8f1}.check input{width:18px;height:18px;margin-top:4px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:21px}.button{border:2px solid var(--cocoa);border-radius:999px;padding:11px 18px;background:var(--cocoa);color:#fff;font:inherit;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.button.pink{background:var(--pink);color:var(--cocoa)}.button.white{background:#fff;color:var(--cocoa)}.button.small{padding:7px 12px;font-size:12px}.status{min-height:25px;margin-top:14px;font-size:13px;font-weight:900;color:#39704b}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.count{font-size:13px;color:var(--muted)}.items{display:grid;gap:13px}.empty{padding:35px 18px;text-align:center;border:2px dashed var(--line);border-radius:18px;color:var(--muted)}.item{display:grid;grid-template-columns:105px 1fr;gap:15px;padding:14px;border:1px solid var(--line);border-radius:18px;background:#fffefb}.item img,.no-image{width:105px;height:92px;border-radius:13px;object-fit:cover}.no-image{display:grid;place-items:center;background:var(--mint);font-size:34px}.item h3{font-size:16px;margin:0 0 3px}.meta{font-size:12px;color:var(--muted)}.state{display:inline-flex;margin:7px 0;padding:3px 8px;border-radius:999px;background:var(--mint);font-size:11px;font-weight:900}.state.draft{background:#eee}.item-actions{display:flex;gap:7px;flex-wrap:wrap}.danger{color:#9a3342}.note{margin-top:22px;padding:18px;border-radius:18px;background:var(--mint);font-size:13px}.data-tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.data-tools input{display:none}@media(max-width:820px){.layout,.field-grid{grid-template-columns:1fr}.top-inner{align-items:flex-start;flex-direction:column}.card{padding:22px}.item{grid-template-columns:80px 1fr}.item img,.no-image{width:80px;height:75px}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner"><div class="brand">🐹 Apunokagi Product Manager</div><span class="pill">🔒 管理用ページ</span></div></header>
+  <main class="wrap">
+    <section class="intro"><span class="eyebrow">ADD & PUBLISH YOUR GOODS</span><h1>作品をかんたんに掲載。👜</h1><p>写真と商品情報を入力して「保存する」を押すだけ。公開をオンにした作品は、Apunokagiサイトの作品欄に表示されます。</p></section>
+    <div class="layout">
+      <section class="card">
+        <h2 id="form-title">新しい作品を追加</h2>
+        <form id="product-form">
+          <input id="edit-id" type="hidden">
+          <div class="field"><label class="upload" for="image">📷 作品写真を選ぶ（後からでもOK）<br><span class="help">今は写真なしで商品情報だけ保存できます。</span><input id="image" type="file" accept="image/jpeg,image/png,image/webp"></label><img class="preview" id="preview" alt="選択した作品写真のプレビュー"></div>
+          <div class="field"><label for="name">商品名 *</label><input id="name" required maxlength="90" placeholder="例：パープルの花柄 手編みバッグ"></div>
+          <div class="field"><label for="price">価格（円） *</label><input id="price" required type="number" min="0" step="1" placeholder="6000"></div>
+          <div class="field"><label for="description">短い説明</label><textarea id="description" maxlength="180" placeholder="色、素材、デザインの特徴を短く書きます。"></textarea></div>
+          <div class="form-section"><h3>📏 購入判断に必要な情報</h3><p>分からない項目は空欄でも保存できます。実測してから公開するのがおすすめです。</p>
+            <div class="field-grid">
+              <div class="field"><label for="width">横幅（cm）</label><input id="width" type="number" min="0" step="0.1" placeholder="例：28"></div>
+              <div class="field"><label for="height">高さ（cm）</label><input id="height" type="number" min="0" step="0.1" placeholder="例：22"></div>
+              <div class="field"><label for="depth">マチ（cm）</label><input id="depth" type="number" min="0" step="0.1" placeholder="例：8"></div>
+              <div class="field"><label for="strap">持ち手／ストラップ（cm）</label><input id="strap" type="number" min="0" step="0.1" placeholder="例：95"></div>
+              <div class="field"><label for="weight">重さ（g）</label><input id="weight" type="number" min="0" step="1" placeholder="例：320"></div>
+              <div class="field"><label for="stock">在庫表示</label><select id="stock"><option value="一点物・在庫はMinneで確認">一点物・在庫はMinneで確認</option><option value="残り1点">残り1点</option><option value="販売中">販売中</option><option value="受注制作">受注制作</option></select></div>
+            </div>
+            <div class="field"><label for="material">素材</label><input id="material" maxlength="100" placeholder="例：コットン糸、アクリル糸"></div>
+            <div class="field"><label for="fits">入るもの</label><input id="fits" maxlength="140" placeholder="例：スマートフォン、二つ折り財布、鍵、小さなポーチ"></div>
+            <div class="field-grid">
+              <div class="field"><label for="lining">内布</label><select id="lining"><option value="">選択してください</option><option value="あり">あり</option><option value="なし">なし</option></select></div>
+              <div class="field"><label for="pocket">ポケット</label><select id="pocket"><option value="">選択してください</option><option value="あり">あり</option><option value="なし">なし</option></select></div>
+            </div>
+            <div class="field"><label for="closure">開閉方法</label><input id="closure" maxlength="80" placeholder="例：マグネットボタン／ファスナー／開口部のみ"></div>
+            <div class="field"><label for="care">お手入れ方法</label><textarea id="care" maxlength="220" placeholder="例：形を整えて陰干ししてください。"></textarea></div>
+          </div>
+          <div class="field"><label for="url">Minne商品ページURL *</label><input id="url" required type="url" pattern="https://minne\.com/.*" placeholder="https://minne.com/items/..."><span class="help">購入ボタンのリンクになります。</span></div>
+          <label class="check"><input id="published" type="checkbox"><span><strong>この作品を公開する</strong><br><span class="help">オフで保存すると下書きになります。</span></span></label>
+          <div class="actions"><button class="button pink" type="submit">💾 保存する</button><button class="button white" id="cancel" type="button" hidden>編集をやめる</button></div>
+          <div class="status" id="status" aria-live="polite"></div>
+        </form>
+        <div class="note"><strong>大切：</strong>商品データは、このブラウザ内に保存されます。公開サイトと管理画面は同じURL（同じドメイン）で開いてください。</div>
+        <div class="data-tools"><button class="button white small" id="export" type="button">⬇ データを保存</button><label class="button white small" for="import">⬆ データを復元<input id="import" type="file" accept="application/json"></label></div>
+      </section>
+      <section class="card">
+        <div class="toolbar"><h2>登録した作品</h2><span class="count" id="count">0件</span></div>
+        <div class="items" id="items"></div>
+        <div class="actions"><a class="button" href="index.html#collection" target="_blank">👀 公開サイトを確認</a></div>
+      </section>
+    </div>
+  </main>
+  <script>
+    const KEY='apunokagi_products_v1';
+    const form=document.getElementById('product-form'),items=document.getElementById('items'),preview=document.getElementById('preview'),imageInput=document.getElementById('image'),status=document.getElementById('status');
+    let imageData='',pendingDeleteId='';
+    function read(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(error){return[]}}
+    function write(products){localStorage.setItem(KEY,JSON.stringify(products));render()}
+    function setStatus(message){status.textContent=message;window.setTimeout(()=>{if(status.textContent===message)status.textContent=''},3500)}
+    function compressImage(file){return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=reject;reader.onload=()=>{const img=new Image();img.onerror=reject;img.onload=()=>{const max=1200,scale=Math.min(1,max/Math.max(img.width,img.height)),canvas=document.createElement('canvas');canvas.width=Math.round(img.width*scale);canvas.height=Math.round(img.height*scale);canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);resolve(canvas.toDataURL('image/jpeg',.82))};img.src=reader.result};reader.readAsDataURL(file)})}
+    imageInput.addEventListener('change',async()=>{const file=imageInput.files[0];if(!file)return;imageData=await compressImage(file);preview.src=imageData;preview.style.display='block';setStatus('写真を準備しました。')});
+    function resetForm(){form.reset();document.getElementById('edit-id').value='';document.getElementById('form-title').textContent='新しい作品を追加';document.getElementById('cancel').hidden=true;imageData='';preview.removeAttribute('src');preview.style.display='none'}
+    const value=id=>document.getElementById(id).value.trim();
+    form.addEventListener('submit',event=>{event.preventDefault();const id=value('edit-id')||String(Date.now());const products=read(),existing=products.find(item=>item.id===id);const product={id,name:value('name'),price:Number(value('price')),description:value('description'),width:value('width'),height:value('height'),depth:value('depth'),strap:value('strap'),weight:value('weight'),stock:value('stock'),material:value('material'),fits:value('fits'),lining:value('lining'),pocket:value('pocket'),closure:value('closure'),care:value('care'),url:value('url'),published:document.getElementById('published').checked,image:imageData||(existing&&existing.image)||''};const index=products.findIndex(item=>item.id===id);if(index>=0)products[index]=product;else products.unshift(product);write(products);resetForm();setStatus('作品を保存しました。公開サイトを確認できます。')});
+    document.getElementById('cancel').addEventListener('click',resetForm);
+    function edit(id){const product=read().find(item=>item.id===id);if(!product)return;['edit-id','name','price','description','width','height','depth','strap','weight','stock','material','fits','lining','pocket','closure','care','url'].forEach(field=>{document.getElementById(field).value=field==='edit-id'?product.id:(product[field]||'')});document.getElementById('published').checked=product.published;imageData=product.image||'';if(imageData){preview.src=imageData;preview.style.display='block'}else{preview.style.display='none'}document.getElementById('form-title').textContent='作品を編集';document.getElementById('cancel').hidden=false;window.scrollTo({top:0,behavior:'smooth'})}
+    function remove(id){if(pendingDeleteId!==id){pendingDeleteId=id;render();setStatus('もう一度「確認して削除」を押すと削除します。');return}pendingDeleteId='';write(read().filter(item=>item.id!==id));setStatus('作品を削除しました。')}
+    function toggle(id){write(read().map(item=>item.id===id?{...item,published:!item.published}:item))}
+    function render(){const products=read();document.getElementById('count').textContent=products.length+'件';items.replaceChildren();if(!products.length){const empty=document.createElement('div');empty.className='empty';empty.textContent='まだ作品がありません。左のフォームから追加してください。';items.appendChild(empty);return}products.forEach(product=>{const row=document.createElement('article');row.className='item';if(product.image){const img=document.createElement('img');img.src=product.image;img.alt='';row.appendChild(img)}else{const no=document.createElement('div');no.className='no-image';no.textContent='🧶';row.appendChild(no)}const body=document.createElement('div');const title=document.createElement('h3');title.textContent=product.name;body.appendChild(title);const meta=document.createElement('div');meta.className='meta';const dimensions=[product.width&&'横'+product.width,product.height&&'縦'+product.height,product.depth&&'マチ'+product.depth].filter(Boolean).join(' × ');meta.textContent='¥'+Number(product.price).toLocaleString('ja-JP')+(dimensions?'｜'+dimensions+'cm':'｜サイズ未入力');body.appendChild(meta);const state=document.createElement('span');state.className='state'+(product.published?'':' draft');state.textContent=product.published?'公開中':'下書き';body.appendChild(state);const actions=document.createElement('div');actions.className='item-actions';[['編集',()=>edit(product.id)],[(product.published?'非公開にする':'公開する'),()=>toggle(product.id)],[(pendingDeleteId===product.id?'確認して削除':'削除'),()=>remove(product.id)]].forEach(([text,handler],i)=>{const button=document.createElement('button');button.type='button';button.className='button white small'+(i===2?' danger':'');button.textContent=text;button.addEventListener('click',handler);actions.appendChild(button)});body.appendChild(actions);row.appendChild(body);items.appendChild(row)})}
+    document.getElementById('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(read(),null,2)],{type:'application/json'}),link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download='apunokagi-products.json';link.click();URL.revokeObjectURL(link.href)});
+    document.getElementById('import').addEventListener('change',event=>{const file=event.target.files[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{try{const data=JSON.parse(reader.result);if(!Array.isArray(data))throw new Error();write(data);setStatus('商品データを復元しました。')}catch(error){setStatus('このファイルは読み込めませんでした。')}};reader.readAsText(file)});
+    render();
+  </script>
+</body>
+</html>
