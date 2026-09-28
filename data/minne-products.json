@@ -1,0 +1,137 @@
+{
+  "shop": "https://minne.com/@apunokagi",
+  "syncedAt": "2026-09-28T05:26:06+00:00",
+  "count": 13,
+  "products": [
+    {
+      "id": 46421128,
+      "name": "ふわふわくまモチーフの手編みショルダーバッグ｜ブラック×ピンク・一点物",
+      "price": 3600,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/44306debc2703ed2394ec2a76c0bac7a1b16cd7d.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/246830497/w1600xh1600/a198bc94724c1dce2ae744299a6027b75bd328a1.jpg?1790572232",
+      "url": "https://minne.com/items/46421128",
+      "stock": 1,
+      "oneOfAKind": true,
+      "startedSellingAt": "2026-09-28T14:19:16+09:00"
+    },
+    {
+      "id": 46417474,
+      "name": "カラフルきのこモチーフの手編みバッグ｜ブラウン×グレー・一点物",
+      "price": 3600,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/bbfbf03ddca8162d1e671f0d925e3072330869aa.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/246806595/w1600xh1600/75f00acc9aa69b99e6d08054a95a5f9c304a9366.jpg?1790514524",
+      "url": "https://minne.com/items/46417474",
+      "stock": 1,
+      "oneOfAKind": true,
+      "startedSellingAt": "2026-09-28T10:52:48+09:00"
+    },
+    {
+      "id": 46416429,
+      "name": "黒猫モチーフの手編みショルダーバッグ｜グリーン×ブラウン・一点物",
+      "price": 3800,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/ed3609c29a78548000106850a23c2247f18470f9.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/246799187/w1600xh1600/0285ad3626a215e13e3b681218180873e1600111.jpg?1790504676",
+      "url": "https://minne.com/items/46416429",
+      "stock": 1,
+      "oneOfAKind": true,
+      "startedSellingAt": "2026-09-27T19:25:57+09:00"
+    },
+    {
+      "id": 46415944,
+      "name": "カラフル蝶々の手編みミニポーチ｜チャコールグレー・一点物",
+      "price": 2200,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/75fb79ed9194a0c4062c2e466ceb913c198263f4.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/246795279/w1600xh1600/11c4bdba0ed08c8c614d211a6a4ff0fb6dbf8354.jpg?1790498920",
+      "url": "https://minne.com/items/46415944",
+      "stock": 1,
+      "oneOfAKind": true,
+      "startedSellingAt": "2026-09-27T18:07:17+09:00"
+    },
+    {
+      "id": 45948529,
+      "name": "シルバー×チャコール お花モチーフの手編みミニポーチ｜一点物",
+      "price": 3200,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/938dc435df1607e4898c782d468e08b455d66f56.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/246793296/w1600xh1600/164fce2594227153fd454f8cdd2b7eb5f5970109.jpg?1790496842",
+      "url": "https://minne.com/items/45948529",
+      "stock": 1,
+      "oneOfAKind": true,
+      "startedSellingAt": "2026-09-27T17:21:52+09:00"
+    },
+    {
+      "id": 43733353,
+      "name": "赤いきのこの手編みヘアピン🍄",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/7beffa30aebf9fc3f347ec2687f23add17c70b3d.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735925/w1600xh1600/c9db887e258aafd0a0bbd91ce79bd55bf5cf6ae6.jpeg?1755940979",
+      "url": "https://minne.com/items/43733353",
+      "stock": 3,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T15:59:58+09:00"
+    },
+    {
+      "id": 43733339,
+      "name": "3つのスマイル手編みヘアピン｜ブラウン・グリーン・アイボリー",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/1aee880df33a404a168ce9551c12cf1fffb085ac.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735777/w1600xh1600/7900d57796c97da4570f4601cdf5d54c11ec9648.jpeg?1755940775",
+      "url": "https://minne.com/items/43733339",
+      "stock": 3,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:00:33+09:00"
+    },
+    {
+      "id": 43733324,
+      "name": "フルーツをのせたカピバラの手編みヘアピン",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/3349db7607d8ab302e09f352f39f861446ba167a.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735695/w1600xh1600/8bcb2f3448afd154b91b00651c5f65981521815c.jpeg?1755940672",
+      "url": "https://minne.com/items/43733324",
+      "stock": 5,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:01:09+09:00"
+    },
+    {
+      "id": 43733313,
+      "name": "こひつじの手編みヘアピン🐑",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/9ded20cea3b9e5577f65227109f399cf7f367b40.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735616/w1600xh1600/ac84709dd5c62fe59140dda4cf29536bd5f924ae.jpeg?1755940557",
+      "url": "https://minne.com/items/43733313",
+      "stock": 3,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:01:36+09:00"
+    },
+    {
+      "id": 43733302,
+      "name": "ひまわり刺繍の手編みヘアクリップ｜グレー",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/35a5442f83c71edcf24798c043747a47412d92f0.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735559/w1600xh1600/aeae17ffba26ff8d95b20b857c0b897c825a8afa.jpeg?1755940458",
+      "url": "https://minne.com/items/43733302",
+      "stock": 3,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:02:01+09:00"
+    },
+    {
+      "id": 43733292,
+      "name": "お花模様のふわふわ手編みヘアクリップ🌸",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/4ea2ad078baf269268ad143f92709b446954ee1c.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735442/w1600xh1600/e912083c5758921e0d6fc5546e70ebfe513c2661.jpeg?1755940277",
+      "url": "https://minne.com/items/43733292",
+      "stock": 3,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:02:08+09:00"
+    },
+    {
+      "id": 43485562,
+      "name": "カラフルひまわりの手編みヘアクリップ🌻",
+      "price": 400,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/6775a48b717bb12bf771506dc61b82909712abfd.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/226735300/w1600xh1600/56efb3b77022e9e572f4959e176a6202020ce612.jpeg?1755940093",
+      "url": "https://minne.com/items/43485562",
+      "stock": 3,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:02:14+09:00"
+    },
+    {
+      "id": 45944705,
+      "name": "手編みパンダのブローチ🐼",
+      "price": 500,
+      "image": "https://image.minne.com/minne/photo/640x640q85p/5e83917e227b879ec10bbb67e87d74e2b7895950.webp/minne-bucket-pro.s3-ap-northeast-1.amazonaws.com/productimages/243477981/w1600xh1600/77db2770c292887b75e2a3df0dae26d1f92028cd.jpeg?1784356531",
+      "url": "https://minne.com/items/45944705",
+      "stock": 15,
+      "oneOfAKind": false,
+      "startedSellingAt": "2026-07-18T16:02:24+09:00"
+    }
+  ]
+}

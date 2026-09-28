@@ -4,9 +4,36 @@ Open `index.html` in a browser to preview the website.
 
 The public website supports Japanese, English, and Spanish. English is the default for new visitors; visitors can switch instantly between `JP`, `EN`, and `ES`, and their choice is remembered in the browser.
 
-## Product manager
+## Automatic Minne product sync
 
-Open `product-manager.html` to add, edit, publish, or remove products. Open the public website and product manager from the same web address so they share product data.
+The public collection is generated from `https://minne.com/@apunokagi` without a
+login. It includes only products that Minne publicly marks as available, with
+their image, name, price, stock and direct product link.
+
+- GitHub Actions updates `data/minne-products.json` every day at approximately
+  04:17 Japan time.
+- Run the **Sync Minne products** workflow manually for an immediate refresh.
+- To update locally, run `python scripts/sync_minne.py` and reload the website.
+- Checkout, shipping, full specifications and definitive availability remain on
+  Minne.
+
+If Minne changes its page structure, the workflow fails without replacing the
+last valid product feed.
+
+## Curated Instagram gallery
+
+The website uses selected local photographs from `assets/instagram/` so the
+brand story stays visually consistent without a Meta developer account. Every
+gallery photograph links visitors to `https://www.instagram.com/apunokagi/`,
+where they can see the newest posts and behind-the-scenes work.
+
+To refresh the website gallery, add an optimized photograph to
+`assets/instagram/` and update the gallery markup in `index.html`. Minne remains
+the automatically synchronized source for products, prices and availability.
+
+## Optional product manager
+
+Open `product-manager.html` to preview manually entered product information in the same browser. The public Minne feed takes priority when it is available.
 
 1. Enter the product name, price, and exact Minne product URL.
 2. Add verified dimensions, weight, materials, capacity, lining, pocket, closure, and care instructions.
